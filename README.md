@@ -1,5 +1,7 @@
 # Naramispresso
 
+Grouped Nespresso ordering framework based on Typeform.
+
 ## Installation
 
 Clone this repository using the following command:
