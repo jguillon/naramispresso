@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background-color: #000;">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Confirmation de Commande</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#000" style="background-color: #000; border: #000; color: #fff; padding: 0px 0px 100px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;">
+
+  <tr>
+    <td>
+
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: #000;">
+        <tr>
+          <td><img src="cid:naramispresso-logotext-bw" /></td>
+          <td align="right" style="color: #ca9c4f;">CONFIRMATION DE COMMANDE</td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 50px 100px 50px 100px;">
+
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: #000;">
+        <tr>
+          <td>
+            <img src="cid:naramispresso-mail-header" alt="NARAMISPRESSO header" />
+          </td>
+        </tr>
+        <tr>
+          <td style="color: #fff; font-size: 1.5em;">
+            {first_name} {last_name},
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p style="padding: 5px; color: #fff;">
+              Je suis très heureux de vous informer que votre commande a bien été enregistrée.
+            </p>
+            <p style="padding: 5px; color: #fff;">
+              Vous pouvez suivre l'état de votre commande dès maintenant en vous adressant directement à moi.
+            </p>
+            <p style="padding: 5px; color: #fff;">
+              Vous trouverez ci-dessous les détails concernant votre commande. Le paiement de celle-ci se fera selon les préférences que vous avez indiqué dans le formulaire mais le plus simple reste encore via PayPal en cliquant sur ce lien suivant : <a href="https://paypal.me/{paypal_id}/{total}" style="color: #ca9c4f;">PayPal.Me/jeremyguillon</a>.
+            </p>
+            <p style="padding: 5px; color: #fff;">
+              Pour toute demande d'informations supplémentaires, n'hésitez pas à me contacter par <a href="{slack_url}" style="color: #ca9c4f;">Slack</a>, <a href="mailto://jeremy.guillon@inria.fr" style="color: #ca9c4f;">mail</a>, SMS ou avions en papier.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p style="padding: 5px; color: #fff;">
+              <em>
+                Je vous souhaite d'agréables moments de dégustation et espère vous retrouver bientôt pour une nouvelle commande groupée.
+              </em>
+            </p>
+            <p style="padding: 5px; color: #fff;">
+              <em>
+                Cordialement, Le Club NARAMISPRESSO
+              </em>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 0px 80px 0px 80px;">
+
+      <table border="0" cellpadding="0" cellspacing="10px" width="100%" style="border: #000;">
+        <tr style="font-weight: bold; font-size: 12px;">
+          <td style="color: #fff;">
+            Information de livraison
+          </td>
+          <td style="color: #fff;">
+            Information de facturation
+          </td>
+        </tr>
+        <tr bgcolor="#fbf7f4" style="color: #313131; font-weight: normal; font-size: 11px; line-height: 1.5em;">
+          <td style="padding: 20px;">
+            Livraison prévue le {reception_date}. <br />
+            Sur votre bureau (ou le mien si vous n'étiez pas présent lors de la réception).
+          </td>
+          <td style="padding: 20px;">
+            <b>{first_name} {last_name}</b> <br />
+            Bureau 3.008, <br />
+            Institut du Cerveau et de la Moelle épiniére (ICM), <br />
+            47 Bvd de l'hôpital, <br />
+            75013 Paris.
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 0px 80px 0px 80px;">
+
+      <table border="0" cellpadding="10px" cellspacing="0" width="100%" style="padding: 10px; border: #000; font-size: 11px;">
+        <tr cellpadding="0" style="font-weight: bold; font-size: 12px;">
+          <td style="color: #fff;">
+            Détails de la commande
+          </td>
+        </tr>
+        <tr bgcolor="#fbf7f4" style="color: #b2b2b2; font-weight: normal;">
+          <td><em>Produit</em></td>
+          <td><em>Quantité</em></td>
+          <td><em>Prix</em></td>
+        </tr>
+        {command_details}
+        <tr bgcolor="#fbf7f4" style="color: #ca9c4f">
+          <td><em>TOTAL</em></td>
+          <td></td>
+          <td><em>{total} €</em></td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+</html>

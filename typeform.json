@@ -1,0 +1,642 @@
+{
+    "title": "Naramispresso",
+    "theme": {
+        "href": "https://api.typeform.com/themes/zoJc3k"
+    },
+    "workspace": {
+        "href": "https://api.typeform.com/workspaces/11512916"
+    },
+    "settings": {
+        "is_public": true,
+        "is_trial": false,
+        "language": "en",
+        "progress_bar": "proportion",
+        "show_progress_bar": true,
+        "show_typeform_branding": true,
+        "meta": {
+            "allow_indexing": true
+        }
+    },
+    "welcome_screens": [
+        {
+            "ref": "2355de48e3a821d1",
+            "title": "ARAMISLAB Nespresso Club",
+            "properties": {
+                "show_button": true,
+                "description": "This form allows you to order Nespresso directly from your desk !\nAre you ready ?",
+                "button_text": "start"
+            }
+        }
+    ],
+    "thankyou_screens": [
+        {
+            "ref": "default_tys",
+            "title": "Thanks for completing this typeform\nNow *create your own* \u2014 it's free, easy, & beautiful",
+            "properties": {
+                "show_button": true,
+                "share_icons": false,
+                "button_mode": "redirect",
+                "button_text": "Create a *typeform*",
+                "redirect_url": "https://admin.typeform.com/powered-by?utm_campaign=wqrFPb&utm_source=typeform.com-2625426-Basic&utm_medium=typeform&utm_content=typeform-thankyoubutton&utm_term=EN"
+            },
+            "attachment": {
+                "type": "image",
+                "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+            }
+        }
+    ],
+    "fields": [
+        {
+            "title": "Limited Edition",
+            "ref": "42ad3c662ed2b608",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "...",
+                        "ref": "80c0be29d082d2c0",
+                        "validations": {
+                            "required": false
+                        },
+                        "type": "short_text"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Intenso",
+            "ref": "c5a1076c99ec6dfb",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "KAZAAR (3,90\u20ac / 10 Units)",
+                        "ref": "55fcd4629f04a791",
+                        "properties": {
+                            "description": "EXCEPTIONALLY INTENSE\nAND SYRUPY\nA daring blend of two Robustas from Brazil and Guatemala, specially prepared for Nespresso, and a separately roasted Arabica from South America, Kazaar is a coffee of exceptional intensity. Its powerful bitterness and notes of pepper are balanced by a full and creamy texture.\nPrice per 100g: 7,80\u20ac\n\nINTENSITY 12\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/v893zsfiDnrc"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "DHARKAN (3,90\u20ac / 10 Units)",
+                        "ref": "0fc0affc1ee522bc",
+                        "properties": {
+                            "description": "LONG ROASTED AND VELVETY\nThis blend of Arabicas from Latin America and Asia fully unveils its character thanks to the technique of long roasting at a low temperature. Its powerful personality reveals intense roasted notes together with hints of bitter cocoa powder and toasted cereals that express themselves in a silky and velvety texture.\nPrice per 100g: 7,80\u20ac\n\nINTENSITY 11\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/hANTGnQMJ4un"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "RISTRETTO (3,50\u20ac / 10 Units)",
+                        "ref": "29ee911c54ee99a5",
+                        "properties": {
+                            "description": "POWERFUL AND CONTRASTING\nA blend of South American and East African Arabicas, with a touch of Robusta, roasted separately to create the subtle fruity note of this full-bodied, intense espresso.\nPrice per 100g : 7\u20ac\n\nINTENSITY 10\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/eGXaDdkxdu4Z"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "ARPEGGIO (3,50\u20ac / 10 Units)",
+                        "ref": "14b2dd2a784819e2",
+                        "properties": {
+                            "description": "INTENSE AND CREAMY\nA dark roast of pure South and Central American Arabicas, Arpeggio has a strong character and intense body, enhanced by cocoa notes.\nPrice per 100g : 7\u20ac\n\nINTENSITY 9\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/MyYGeKTHF5fR"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "ROMA (3,50\u20ac / 10 Units)",
+                        "ref": "924a93fdd24db470",
+                        "properties": {
+                            "description": "FULL AND BALANCED\nThe balance of lightly roasted South and Central American Arabicas with Robusta, gives Roma sweet and woody notes and a full, lasting taste on the palate.\nPrice per 100g : 7\u20ac\n\nINTENSITY 8\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/2MgaExscHdi6"
+                        },
+                        "type": "rating"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Espresso",
+            "ref": "1b3c4b8ed34b5b65",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "LIVANTO (3,50\u20ac / 10 Units)",
+                        "ref": "e67ac6d24105b4d4",
+                        "properties": {
+                            "description": "ROUND AND BALANCED\nA blend of pure Arabica from South and Central America, _Livanto_ is a well-balanced espresso characterised by a roasted caramelised note.\nPrice per 100g : 7\u20ac\n\nINTENSITY 6\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/dHbTZYuW2phR"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "CAPRICCIO (3,50\u20ac / 10 Units)",
+                        "ref": "ab4a196f741fe3bb",
+                        "properties": {
+                            "description": "RICH AND DISTINCTIVE\nBlending South American Arabicas with a touch of Robusta, _Capriccio_is an espresso with a rich aroma and a strong typical cereal note.\nPrice per 100g : 7\u20ac\n\nINTENSITY 5\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/caBS8Lhq4bnp"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "VOLLUTO (3,50\u20ac / 10 Units)",
+                        "ref": "2fa95cac1e89badb",
+                        "properties": {
+                            "description": "SWEET AND LIGHT\nA pure and lightly roasted Arabica from South America, Volluto reveals sweet and biscuity flavours, reinforced by a little acidity and a fruity note.\nPrice per 100g : 7\u20ac\n\nINTENSITY 4\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/5q8Aq4tzHmqu"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "COSI (3,50\u20ac / 10 Units)",
+                        "ref": "6db596c11bbeea15",
+                        "properties": {
+                            "description": "MILD AND DELICATELY TOASTED\nPure Arabicas from East Africa, Central and South America make this coffee a delicate and balanced blend with cereal and lightly toasted notes enhanced by subtle fruity notes.\nPrice per 100g : 7\u20ac\nPrice per 100g : 7\u20ac\n\nINTENSITY 4\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/PUXH3Upk8VQa"
+                        },
+                        "type": "rating"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Decaffeinato",
+            "ref": "4f0dad1df67dce10",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "RISTRETTO DECAFFEINATO (3,90\u20ac / 10 Units)",
+                        "ref": "4191c812416a5d7b",
+                        "properties": {
+                            "description": "Intensely roasted and rich in flavour, _Ristretto Decaffeinato_ has the same powerful character and contrasting taste as the original _Ristretto_. A selection of the best Latin American and East African Arabicas is sophisticatedly blended with a touch of Robusta, roasted separately to create the subtle fruity note of this full bodied, intense Espresso.\nPrice per 100g : 7,09\u20ac\n\nINTENSITY 10\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/HcPqBHbZeJai"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "ARPEGGIO DECAFFEINATO (3,90\u20ac / 10 Units)",
+                        "ref": "eb72630b528f1987",
+                        "properties": {
+                            "description": "INTENSE AND CREAMY\nA dark roast of pure South and Central American Arabicas, Arpeggio Decaffeinato boasts strong character, intense body and cocoa notes.\nPrice per 100g : 7,09\u20ac\n\nINTENSITY 9\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/gBamGzYyTeq4"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "VOLLUTO DECAFFEINATO (3,90\u20ac / 10 Units)",
+                        "ref": "3974fd8654e5ca01",
+                        "properties": {
+                            "description": "SWEET AND LIGHT\nA blend of pure and lightly roaster Arabicas from South America, Volluto Decaffeinato reveals sweet and biscuity flavours, reinforced by a hint of acidity and a fruity note.\nPrice per 100g : 7,80\u20ac\n\nINTENSITY 4\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/hMSB8iX2F7Ec"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "VIVALTO LUNGO DECAFFEINATO (4,20\u20ac / 10 Units)",
+                        "ref": "13d3de300ec7145e",
+                        "properties": {
+                            "description": "COMPLEX AND BALANCED\nVivalto Lungo Decaffeinato is a balanced decaffeinated coffee that perfectly preserves the complexity of separately roasted South American and East African Arabicas, combining both roasted and subtle floral notes.\nPrice per 100g : 7,64\u20ac\n\nINTENSITY 4\nLUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/4TNxkZQr4fRF"
+                        },
+                        "type": "rating"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Master Origin",
+            "ref": "2c028cc2ae5ff204",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "INDONESIA (4,20\u20ac / 10 Units)",
+                        "ref": "99844b1fc206988a",
+                        "properties": {
+                            "description": "WOODY\nMaster Origin Indonesia wet-hulled Arabica is a race against rain. Sumatran farmers wet-hull their coffee because of the humid climate. They remove the parchment when the coffee is soft and moist because exposed beans dry faster. The method is unique to them and produces the classic Indonesian taste - velvety thick, wildly aromatic, notes of cured tobacco.\nPrice per 100g : 7,37\u20ac\n\nINTENSITY 8\nESPRESSO & LUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/WnWfE6cFip52"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "INDIA (4,20\u20ac / 10 Units)",
+                        "ref": "f621d551-3a73-4396-8d2b-bf65521ca0d5",
+                        "properties": {
+                            "description": "SPICY\nMaster Origin India with Robusta Monsoon gets its intense, woody, spicy aromatics from the monsooned Robusta blended into Indian Arabica. Monsooning coffees is unique to India\u2019s southwest coast. Months of monsoonal winds repeatedly swell and dry the beans. It mimics the journey it used to take when sailing to Europe.\nPrice per 100g : 7,37\u20ac\n\nINTENSITY 11\nESPRESSO & LUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/hfJP2vV2Xb6w"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "COLOMBIA (4,20\u20ac / 10 Units)",
+                        "ref": "82e60dc2fa768464",
+                        "properties": {
+                            "description": "FRUITY-WINEY\nMaster Origin Colombia with Late Harvest uses only high-grown, washed processed Colombian Arabica. Can you taste the lively acidity and the burst of winey red fruit aromas? That comes from those coffee farmers who dared to wait longer before harvesting their crop.\nPrice per 100g : 7,37\u20ac\n\nINTENSITY 6\nESPRESSO & LUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k6C4bvY6ARvU"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "NICARAGUA (4,20\u20ac / 10 Units)",
+                        "ref": "28e6b12968a93039",
+                        "properties": {
+                            "description": "SWEET HONEY\nIf Black Honey processing were the easy road to a nectarous coffee, they\u2019d all do it. But only a few farmers dare. It\u2019s a rare process because it calls for meticulous monitoring. Master Origin Nicaragua with \u2018Black-Honey\u2019 processed Arabica contains this coffee. It gives this Nicaraguan Arabica its smooth honeyed texture and sweet cereal notes.\nPrice per 100g : 7,37\u20ac\n\nINTENSITY 5\nESPRESSO & LUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/T9QHwkXngRT6"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "ETHIOPIA (4,20\u20ac / 10 Units)",
+                        "ref": "db7e9ef15dc63443",
+                        "properties": {
+                            "description": "FRUITY-WINEY\nThis is Ethiopian Arabica at its finest - decadently aromatic. It has an orange blossom aroma, but the rich fruit jam notes come from the sun-dried coffee in Master Origin Ethiopia with dry processed Arabica. Continually hand-turning the coffee cherry to ensure even drying calls for great care. And Ethiopian farmers have used this method for longer than anyone else.\nPrice per 100g : 7,37\u20ac\n\nINTENSITY 4\nESPRESSO & LUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/ziwYtGU5mx8B"
+                        },
+                        "type": "rating"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Lungo",
+            "ref": "1ba7b43ab34aaddc",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "ENVIVO LUNGO (3,90\u20ac / 10 Units)",
+                        "ref": "58504942e795e1cc",
+                        "properties": {
+                            "description": "POTENT AND CARAMELISED \n_Envivo Lungo_ was specially designed for the morning by_Nespresso_ Coffee Experts. It is a long-cup that stimulates the senses through its high intensity and generous character. This dark roasted coffee is a blend of a distinctiveArabica from India with a Robusta from Mexico. In cup, it reveals a potent character and a full body, roasted notes and rich scents reminiscent of aromatic woods and gingerbread.\nPrice per 100g : 7,09\u20ac\n\nINTENSITY 9\nLUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/x2awVZEpt9Dj"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "FORTISSIO LUNGO (3,90\u20ac / 10 Units)",
+                        "ref": "399090f9f9c88b9f",
+                        "properties": {
+                            "description": "RICH AND FULL-BODIED\nAs in the age of sailing ships, West Indian Malabar Arabica beans are exposed to monsoon winds after harvest to reveal a distinguished aromatic profile, rich with cereal notes. We blend these with Latin American Arabica beans to create a lungo with a truly intense character.\nPrice per 100g : 6,50\u20ac\n\nINTENSITY 8\nLUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/JKkKX85XtmQB"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "VIVALTO LUNGO (3,90\u20ac / 10 Units)",
+                        "ref": "d119d3fde9e00383",
+                        "properties": {
+                            "description": "COMPLEX AND BALANCED\nVivalto Lungo is a balanced coffee made from a complex blend of separately roasted South American and East African Arabicas, combining roasted and subtle floral notes.\nPrice per 100g : 6,50\u20ac\n\nINTENSITY 4\nLUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/enQWjCZzZcbu"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "LINIZIO LUNGO (3,90\u20ac / 10 Units)",
+                        "ref": "168348b2af5e1551",
+                        "properties": {
+                            "description": "ROUND AND SMOOTH\nMild and well-rounded on the palate, Linizio Lungo is a blend of fine Arabicas enhancing malt and cereal notes.\nPrice per 100g : 7,09\u20ac\n\nINTENSITY 4\nLUNGO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/MzFHLSbygv5d"
+                        },
+                        "type": "rating"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Variations",
+            "ref": "a7549c679747cd93",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "CARAMELITO (4,50\u20ac / 10 Units)",
+                        "ref": "2dcdb1279b5de45d",
+                        "properties": {
+                            "description": "CARAMEL\nThe sweet flavour of caramel softens the roasted notes of the Livanto coffee. This delicate gourmet marriage evokes the creaminess of soft toffee.\nPrice per 100g : 8,49\u20ac\n\nINTENSITY 6\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/F34jkAws4apX"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "CIOCATTINO (4,50\u20ac / 10 Units)",
+                        "ref": "041f6f43f048e37e",
+                        "properties": {
+                            "description": "CHOCOLATE\nDark and bitter chocolate notes meet the caramelized roast of the Livanto coffee. A rich combination reminiscent of a square of dark chocolate.\nPrice per 100g : 8,49\u20ac\n\nINTENSITY 6\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/zwsm4WBT4ADg"
+                        },
+                        "type": "rating"
+                    },
+                    {
+                        "title": "VANILIO (4,50\u20ac / 10 Units)",
+                        "ref": "da84343def216be9",
+                        "properties": {
+                            "description": "VANILLA\nA balanced harmony between the rich and the velvety aromas of vanilla and the mellow flavour of the Livanto coffee. A blend distinguished by its full flavour, infinitely smooth and silky on the palate.\nPrice per 100g : 8,49\u20ac\n\nINTENSITY 6\nESPRESSO",
+                            "steps": 9,
+                            "shape": "circle"
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/LR7ByEcwUfK7"
+                        },
+                        "type": "rating"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "title": "Billing Details",
+            "ref": "e7b4319ab3e6fb95",
+            "properties": {
+                "show_button": false,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "title": "First Name",
+                        "ref": "1399516ad37bf8d7",
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "short_text"
+                    },
+                    {
+                        "title": "Last Name",
+                        "ref": "cc25efd28eaa0713",
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "short_text"
+                    },
+                    {
+                        "title": "Email",
+                        "ref": "d9acc0618f4e67ff",
+                        "properties": {
+                            "description": "Email will only be used to send the bill."
+                        },
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "email"
+                    },
+                    {
+                        "title": "Method Of Payment",
+                        "ref": "b68ad9dba3218f72",
+                        "properties": {
+                            "description": "\\*\\* Preferred Methods",
+                            "randomize": false,
+                            "allow_multiple_selection": false,
+                            "allow_other_choice": true,
+                            "vertical_alignment": false,
+                            "choices": [
+                                {
+                                    "ref": "d3bcf31a72feacbf",
+                                    "label": "Credit Card**"
+                                },
+                                {
+                                    "ref": "798ca256f8cd9a60",
+                                    "label": "Lydia**"
+                                },
+                                {
+                                    "ref": "15297fddbe023d40",
+                                    "label": "Paypal**"
+                                },
+                                {
+                                    "ref": "284aaf6135d96e29",
+                                    "label": "Transfer"
+                                },
+                                {
+                                    "ref": "fdfb81b8c2d39df5",
+                                    "label": "Cash"
+                                },
+                                {
+                                    "ref": "3e0f334f5d64a447",
+                                    "label": "Cantine Meals"
+                                }
+                            ]
+                        },
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "multiple_choice"
+                    }
+                ]
+            },
+            "type": "group"
+        }
+    ],
+    "_links": {
+        "display": "https://jguillon.typeform.com/to/wqrFPb"
+    }
+}

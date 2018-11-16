@@ -1,0 +1,13 @@
+{
+  "mail_server": {
+    "address":"smtp.gmail.com",
+    "port": 465,
+    "login": "john.doe@gmail.com",
+    "password": ""
+  },
+  "paypal_id": "johndoe",
+  "slack_url": "https://foobar.slack.com",
+  "typeform_token": "",
+  "office_address": "Office 42<br/>Foobar Company<br/>42 Nice Road<br/>42424 City.",
+  "contact_mail": "contact@foobar.com"
+}
