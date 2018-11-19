@@ -3,9 +3,6 @@
     "theme": {
         "href": "https://api.typeform.com/themes/zoJc3k"
     },
-    "workspace": {
-        "href": "https://api.typeform.com/workspaces/11512916"
-    },
     "settings": {
         "is_public": true,
         "is_trial": false,

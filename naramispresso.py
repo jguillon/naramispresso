@@ -129,7 +129,7 @@ with open(args.typeform_csv, 'rU') as csv_file:
                 # smtp_server.starttls()
                 smtp_server.login(params['mail_server']['login'],
                                   params['mail_server']['password'])
-                # smtp_server.sendmail(msg['From'], msg['To'], msg.as_string())
+                smtp_server.sendmail(msg['From'], msg['To'], msg.as_string())
                 smtp_server.sendmail(msg['From'], params['contact_mail'],
                                      msg.as_string())
                 smtp_server.close()
