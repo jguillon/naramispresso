@@ -10,7 +10,7 @@ Clone this repository using the following command:
 git clone https://github.com/jguillon/naramispresso.git
 ```
 
-### Setting up forms
+### Setting up the form
 
 Create a [Typeform](http://typeform.com/) account and [create a personal token](https://admin.typeform.com/account#/section/tokens) for the Typeform API. This token will be used once hereafter.
 
@@ -18,16 +18,18 @@ Automatically generate a Naramispresso form by running the following command:
 
 ```sh
 curl --request POST \
---header 'Authorization: Bearer <YOUR_PERSONAL_TOKEN>' \
 --url https://api.typeform.com/forms \
---data @naramispresso/typeform.json
+--data @naramispresso/typeform.json \
+--header 'Authorization: Bearer <YOUR_PERSONAL_TOKEN>'
 ```
 
 Check your Typeform admin panel to see if the form has been successfully created. Save the form id or URL, as it will be useful for sharing it.
 
 Note that the form may not be up-to-date according to the original Nespresso(R) marcket (especially the limited editions section). Make sure of it before sharing it. Plus, it will be empty of any image, you may want to manually add some by using the ones in the `img/` folder.
 
-### Sending bills
+### 
+
+### Setting up the mail service provider
 
 Use the following command to copy `parameters.template.json` in the `parameters.json` file:
 ```sh
@@ -41,6 +43,24 @@ If you are using your Gmail account to send emails, follow [these instructions](
 
 ## Usage
 
+### Orders summary
+
+Enter the following command to summurize the orders present in the Typeform's `.csv` file. The resulting output will allow you to easilly make your grouped order on [https://www.nespresso.com](http://www.nespresso.com).
+
 ```sh
-./naramispresso.py <CSV_FILE> [--send] [--date <RECEPTION_DATE>]
+./naramispresso.py <CSV_FILE>
 ```
+
+### Sending bills
+
+Once you've done the order, you can send the bill to everyone using the following command:
+
+```sh
+./naramispresso.py <CSV_FILE> --send --date '<RECEPTION_DATE>'
+```
+
+Note that you must specify the reception date using the `--date '<RECEPTION_DATE>'` parameter.
+
+## Custom the form
+
+If you want to add extra coffee brands to the form, you can. The only requirement is to include  its price as a decimal number in the question such as, for example "AMAZING COFFE (42,00€ / 10 Units)". You could have simply put "32987,203838", it would have worked, but no one will know which coffee brand you were talking about.
